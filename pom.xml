@@ -61,6 +61,7 @@
 				<configuration>
 					<cloudhub2Deployment>
 						<uri>https://anypoint.mulesoft.com</uri>
+						<businessGroupId>${project.groupId}</businessGroupId>
 						<provider>MC</provider>
 						<environment>${environment}</environment>
 						<!-- Frankfurt -->
